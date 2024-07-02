@@ -18,7 +18,7 @@ Create a new scan - Basic Network Scan - Name it - Put target VM`s IP in a targe
 Windows Settings for credentialed Nessus Essential vulnerability scan:
 Go to Windows services - Enable remote registry - set to automatic, apply and start the process 
 Go to Advanced sharing settings - check if file and printer sharing is on
-Go to User account control - if VM`s Network adapter is set to bridged - scroll to never notify, VM`s Network adapter is set to NAT leave at default
+Go to User account control - if VM's Network adapter is set to bridged - scroll to never notify, VM's Network adapter is set to NAT leave at default
 Go to Registry editor - HKEY_LOCAL_MACHINE - Software - Microsoft - Windows - create DWORD (32-bit) Value , name it LocalAccountFilterPolicy - double left click , set value to 1 
 Restart VM
 
